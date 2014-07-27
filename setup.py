@@ -1,20 +1,18 @@
 from distutils.core import setup
 
 setup(
-    name = 'robotframework-uiautomatorlibrary',
-    packages = ['uiautomatorlibrary'],
+    name = 'parallelization',
+    packages = ['parallelization'],
     version = '0.1',
-    author='ming060',
-    author_email = 'lym060@gmail.com',
-    url = 'https://github.com/ming060/robotframework-uiautomatorlibrary',
-    description = 'Robot Framework Android Test Library Based on Python uiautomator',
+    author='hp15071hp',
+    author_email = 'hp15071hp@gmail.com',
+    url = 'https://github.com/hp15071hp/Parallelization',
+    description = 'A parallel processing test library based on Robot Framework',
+	license='MIT',
     long_description = 
     """
-    This is a test library for `Robot Framework <https://pypi.python.org/pypi/robotframework>`_ to bring keyword-driven testing to Android apps..
-
-    It uses by using `Python uiautomator <https://pypi.python.org/pypi/uiautomator>`_ internally.
+    This is a test library for [Robot framework](https://pypi.python.org/pypi/robotframework) which provides parallel processing keyword function.
     """,
-    install_requires = ['uiautomator >= 0.1.28'],
     classifiers  = [
                     'Programming Language :: Python :: 2.7',
                     'License :: OSI Approved :: MIT License',
